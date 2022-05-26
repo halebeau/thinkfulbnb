@@ -29,7 +29,7 @@ section {
 }
 
 section.alternate-background {
-  background-color: #00a699;
+  background-color: #87CBAC;
   color: #fff;
 }
 
@@ -67,7 +67,7 @@ main img {
 /* -------  Navigation ------- */
 
 header {
-  background-color: #ff385c;
+  background-color: #8AC4FF;
   padding: 30px 30px 0 20px;
   text-align: center;
 }
@@ -76,7 +76,7 @@ header {
   display: flex;
   font-family: "Pangolin", cursive;
   font-size: 64px;
-  color: #fff;
+  color: #7A7978;
   justify-content: center;
 }
 
@@ -91,14 +91,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #7A7978;
   padding: 0 20px 0 0;
   text-decoration: none;
 }
 
 header nav ul li a:hover {
-  color: #bdbdbd;
-  text-decoration: none;
+  color: #90FFDC;
+  text-decoration: underline;
 }
 
 /* -------  Search Form ------- */
@@ -107,7 +107,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 2px solid #ff385c;
+  border: 2px solid #8DE4FF;
   padding: 10px;
 }
 
@@ -116,8 +116,13 @@ form label {
   padding-right: 10px;
 }
 
+form button:hover {
+    color: #7A7978;
+  text-decoration: none;
+}
+
 form button {
-  background-color: #ff385c;
+  background-color: #8DE4FF;
   border: none;
   color: #fff;
   font-size: 24px;
@@ -133,11 +138,11 @@ form button {
 /* -------  Footer ------- */
 
 footer {
-  background-color: #ff385c;
+  background-color: #8AC4FF;
 }
 
 footer p {
-  color: #fff;
+  color: #7A7978;
   text-align: center;
   padding: 20px;
 }
